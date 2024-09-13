@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="heading">Re<span>s</span>ume</header>
+        <form action="">
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="same-line">
+                <div>
+                    <label for="phone">Contact</label>
+                    <input type="tel" name="phone" id="phone" placeholder="03xx-1234567" required>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob" pattern="mm/dd/yyyy" placeholder="mm/dd/yyyy" required>
+                </div>
+            </div>
+            <div class="detail-info">
+                <label for="education" id="education">Education</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter Education Detail" required></textarea>
+                <label for="job-exp" id="job-exp" >Job Experience</label>
+                <textarea name="" id="job-exp" cols="30" rows="10" placeholder="Enter Job Experience" required></textarea required>
+                <label for="skills" id="skills">Skills</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Skills"></textarea required>
+            </div>
+            <div class="resume-btn" >
+                <input type="button" value="Create Resume">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
